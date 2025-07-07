@@ -39,7 +39,7 @@ class SystemStatusController extends Controller
                     'laravel' => App::version(),
                     'horizon' => InstalledVersions::getVersion('laravel/horizon'),
                     'mysql' => $this->mysqlVersion(),
-                    'mixpost' => InstalledVersions::getVersion('inovector/mixpost'),
+                    'mixpost' => InstalledVersions::getVersion('me-shaon/mixpost'),
                 ]
             ],
         ]);
