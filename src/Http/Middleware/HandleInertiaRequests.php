@@ -67,7 +67,7 @@ class HandleInertiaRequests extends Middleware
             ],
             'mixpost' => [
                 'docs_link' => 'https://docs.mixpost.app',
-                'version' => InstalledVersions::getVersion('inovector/mixpost'),
+                'version' => InstalledVersions::getVersion('me-shaon/mixpost'),
                 'mime_types' => Config::get('mixpost.mime_types'),
                 'settings' => [
                     'timezone' => Settings::get('timezone'),
